@@ -13,7 +13,7 @@ const Main = () => {
     return (
         <div>
             <Card className={classes.root}>
-               <CardHeader title="Expense Tracker" subheader="Powered by Speechly"/> 
+               <CardHeader title="Expense Tracker" subheader="Support Voice Command"/> 
                <CardContent>
                    <Typography align="center" varient="h5">TOTAL BALANCE ${balance}</Typography>
                    <Typography varient="subtitle1" style={{lineHeight: '1.5em', marginTop: '20px', color: 'grey'}}>
